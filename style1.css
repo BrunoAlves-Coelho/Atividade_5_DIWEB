@@ -1,0 +1,48 @@
+body,ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header section{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1.4em;
+    align-items: center;
+ 
+}
+.marca {
+   padding-left: 20px;
+  
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+
+
+/*
+.categoria a{
+    text-decoration: none; 
+    line-height: 2.0em;  
+    color: rgb(85, 153, 255);
+    font-weight: bold;
+    width: 100%;
+    
+}*/
+/*
+.categoria li{
+    list-style-type: none;
+    text-align:start;    
+    border: 1px solid #727272;
+    padding: 10px;
+    padding-right: 35px;
+    
+}*/
+
+
