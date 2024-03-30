@@ -14,41 +14,23 @@
 <body>
     <header class="container-fluid bg-secondary text-light">
 
-        <section class="row align-items-center">           
-            
-
-            <div class="marca ps-4 p-2 col col-sm-3">
-                <a href="#" class="text-decoration-none text-light fs-3">Start Bootstrap</a>
-            </div>
-
-            <nav class="navbar navbar-expand-lg bg-secondary justify-content-end col col-sm-3 col-md-6 col-lg-9 col-xl-9 col-xxl-9">
-
-                <div class="container-fluid justify-content-end">
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
-                        <ul class="navbar-nav fs-5">
-                            <li class="nav-item">
-                                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Sobre</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Contato</a>
-                            </li>
-                        </ul>
+        <section class="row">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-light fs-3" href="#">Start Bootstrap</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav justify-content-end fs-5">
+                      <a class="nav-link text-light" href="#">Home</a>
+                      <a class="nav-link text-light" href="#">Login</a>
+                      <a class="nav-link text-light" href="#">Sobre</a>
+                      <a class="nav-link text-light" href="#">Contato</a>
                     </div>
+                  </div>
                 </div>
-            </nav>
-      
+              </nav>
         </section>
 
     </header>
@@ -61,29 +43,28 @@
                     <h1 class="align-items-end justify-content-end">Shop Name</h1>
                     <div class="categoria">
                         <ul class="categoria list-group">
-                            <li class="list-group-item border border-secondary-subtle"><a href="#" class="text-decoration-none fw-bold lh-lg">Categoria 1</a></li>
-                            <li class="list-group-item border border-secondary-subtle"><a href="#" class="text-decoration-none fw-bold lh-lg">Categoria 2</a></li>
-                            <li class="list-group-item border border-secondary-subtle"><a href="#" class="text-decoration-none fw-bold lh-lg">Categoria 3</a></li>
+                            <li class="list-group-item border border-secondary-subtle"><a class="text-decoration-none fw-bold lh-lg" href="#">Categoria 1</a></li>
+                            <li class="list-group-item border border-secondary-subtle"><a class="text-decoration-none fw-bold lh-lg" href="#">Categoria 2</a></li>
+                            <li class="list-group-item border border-secondary-subtle"><a class="text-decoration-none fw-bold lh-lg" href="#">Categoria 3</a></li>
                         </ul>
                     </div>
                 </div>
-
             </aside>
 
             <main class="container-fluid col-sm-3 col-md-6 col-lg-9 col-xl-9 col-xxl-9" >
                 <div class="row">
-                    <div class="banner p-2 " >
-                        <img class="img-fluid mw-66rem" src="https://source.unsplash.com/random/1024x500?sig=1">
+                    <div class="banner p-1 " >
+                        <img class="img-fluid" src="https://source.unsplash.com/random/1024x400?sig=1">
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="card m-2 p-0" style="width: 21rem;">
+                    <div class="col-sm-3 card m-1 p-0" style="width: 21rem">
                         <img src="https://source.unsplash.com/random/300x200?sig=2" class="card-img-top img-fluid">
                         <div class="card-body">
-                            <h5 class="item card-title text-primary fw-bold">Item Um</h5>
-                            <p class="preco card-text fw-bold">$ 24,99</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam
+                            <h5 class="card-title text-primary fw-bold">Item Um</h5>
+                            <p class="card-text fw-bold">$ 24,99</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam
                                 aspernatur
                                 neque.
                                 Cumque impedit a odit? Expedita nisi itaque tempore!</p>
@@ -92,12 +73,12 @@
                     </div>
 
 
-                    <div class="card m-2 p-0" style="width: 21rem;">
+                    <div class="col-sm-3 card m-1 p-0" style="width: 21rem">
                         <img src="https://source.unsplash.com/random/300x200?sig=3" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="item card-title text-primary fw-bold">Item Dois</h5>
-                            <p class="preco card-text fw-bold">$39,99</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam
+                            <h5 class="card-title text-primary fw-bold">Item Dois</h5>
+                            <p class="card-text fw-bold">$39,99</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam
                                 aspernatur
                                 neque.
                                 Cumque impedit a odit? Expedita nisi itaque tempore!</p>
@@ -106,12 +87,12 @@
                     </div>
 
 
-                    <div class="card m-2 p-0" style="width: 21rem;">
+                    <div class="col-sm-3 card m-1 p-0" style="width: 21rem">
                         <img src="https://source.unsplash.com/random/300x200?sig=4" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="item card-title text-primary fw-bold">Item Três</h5>
-                            <p class="preco card-text fw-bold">$ 59.99</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam
+                            <h5 class="card-title text-primary fw-bold">Item Três</h5>
+                            <p class="card-text fw-bold">$ 59.99</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam
                                 aspernatur
                                 neque.
                                 Cumque impedit a odit? Expedita nisi itaque tempore!</p>
